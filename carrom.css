@@ -1,11 +1,9 @@
 body {
   background-color: rgb(218, 139, 36);
-  background-image: url(carrom1.jpeg);
+  background-image: url("carrom1.jpg");
+  background-size: cover;
 }
-body:hover {
-  background-color: rgb(219, 91, 74);
-  background-image: none;
-}
+
 #myCanvas {
   /* background-color: #c5540b; */
   position: absolute;
@@ -17,8 +15,9 @@ body:hover {
   margin: auto;
   border: 5px solid rgb(14, 64, 228);
   background-color: rgb(252, 215, 113);
-  background-image: url(carrom.jpeg);
-  background-repeat: round;
+  background-image: url("carrom.jpeg");
+  background-position: center;
+  background-size: cover;
 }
 #myCanvas:hover {
   cursor: pointer;
@@ -34,3 +33,13 @@ h2 {
 h2:hover {
   color: rgb(14, 13, 12);
 }
+.con {
+  display: flex;
+  font-size: 2rem;
+  color: rgb(219, 46, 15);
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+carrom.css
+Displaying carrom.css.
